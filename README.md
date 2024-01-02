@@ -8,7 +8,7 @@ git clone https://github.com/Meoleodeo/extension-lor
 echo done
 ```
 ## Load the Extension:
-1. Open Chrome and navigate to chrome://extensions/.
+1. Open Chrome and navigate to ```chrome://extensions/.```
 2. Enable "Developer mode" in the top right.
 3. Click "Load unpacked" and select your extension folder.
 ## Screenshot:
