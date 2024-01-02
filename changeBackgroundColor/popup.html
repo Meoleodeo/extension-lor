@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Color Changer</title>
+  <link rel="stylesheet" type="text/css" href="popup.css">
+  <style type="text/css">
+    * {
+      cursor: url(https://ani.cursors-4u.net/cursors/cur-13/cur1161.ani), url(https://ani.cursors-4u.net/cursors/cur-13/cur1161.png), auto !important;
+    }
+  </style><a href="https://www.cursors-4u.com/cursor/2018/06/08/hell-yeah-pointer-4.html" target="_blank"
+    title="Hell Yeah Pointer 4"><img src="https://cur.cursors-4u.net/cursor.png" border="0" alt="Hell Yeah Pointer 4"
+      style="position:absolute; top: 0px; right: 0px;" /></a>
+
+  <script src="popup.js"></script>
+</head>
+
+<body>
+  <div class="popup-container">
+    <img src="icon.png" alt="Logo" class="logo">
+    <label for="colorPicker">Choose a color:</label>
+    <input type="color" id="colorPicker" />
+    <button id="changeColor">Change Color</button>
+    <div class="color-presets">
+      <div class="preset" style="background-color: #190019;" data-color="#190019"></div>
+      <div class="preset" style="background-color: #2B124C;" data-color="#2B124C"></div>
+      <div class="preset" style="background-color: #522B5B;" data-color="#522B5B"></div>
+      <div class="preset" style="background-color: #854F6C;" data-color="#854F6C"></div>
+      <div class="preset" style="background-color: #DFB6B2;" data-color="#DFB6B2"></div>
+      <div class="preset" style="background-color: #DBE4D8;" data-color="#DBE4D8"></div>
+    </div>
+  </div>
+</body>
+
+</html>

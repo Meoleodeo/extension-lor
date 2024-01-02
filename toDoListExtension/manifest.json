@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "Meoleodeo Tool box",
+  "version": "1.0",
+  "description": "List Chrome Extension",
+  "icons": {
+    "48": "icon.png"
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": "icon.png"
+  },
+  "permissions": ["storage"]
+}
